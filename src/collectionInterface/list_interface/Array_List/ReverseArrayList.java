@@ -1,6 +1,5 @@
-package collectionInterface.list_interface.arrayList;
+package collectionInterface.list_interface.Array_List;
 
-import java.util.List;
 import java.util.ArrayList;
 
 public class ReverseArrayList {
