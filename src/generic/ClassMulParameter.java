@@ -6,7 +6,7 @@ public class ClassMulParameter {
 		T obj1;
 		V obj2;
 
-		GenericClass(T obj1, V obj2){ // construcotr
+		GenericClass(T obj1, V obj2){ // constructor
 			this.obj1= obj1;
 			this.obj2= obj2;
 		}
