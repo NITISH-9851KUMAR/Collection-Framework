@@ -11,10 +11,10 @@ public class GenericClass{
 		}
 	}
 
-	static class GenericclassT<T>{
+	static class GenericClassT<T>{
 		T val;
 
-		GenericclassT(T obj){
+		GenericClassT(T obj){
 			val= obj;
 		}
 
@@ -28,16 +28,19 @@ public class GenericClass{
 	public static void main( ){
 
 		//  Integer type
-		GenericclassT<Integer> intT= new GenericclassT<>(10);
+		GenericClassT<Integer> intT= new GenericClassT<>(10);
 		System.out.println(intT.getValue());
+		// No need to type conversion getValue() return Integer type but, it automatically does type cast
+		int val= intT.getValue();
+		System.out.println(val);
 
 		// String type
-		GenericclassT<String> str= new GenericclassT<>("Joy with Java");
+		GenericClassT<String> str= new GenericClassT<>("Joy with Java");
 		System.out.println(str.getValue());
 
 		// User Defined type
-		Student student= new Student("Nitish", "Saharsa");
-		GenericclassT<Student> st= new GenericclassT<>(student);
+		Student student= new Student("Name", "How Town");
+		GenericClassT<Student> st= new GenericClassT<>(student);
 		System.out.println(st.getValue().name);
 		System.out.println(st.getValue().city);
 	}
