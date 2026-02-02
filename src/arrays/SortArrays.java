@@ -3,23 +3,14 @@ package arrays;
 import java.util.Arrays;
 
 public class SortArrays{
-	public static void main(String[] args) {
+	public static void main() {
 
-		char[] ch= {'a', 'l', 'c', 'p', 'n', 'b'};
-		System.out.println("Before Sort: "+Arrays.toString(ch));
+		int[] arr= {1, 5, 9, 4, 8, 3};
+		System.out.printf("Before Sort %s \n", Arrays.toString(arr));
 
-		// call the sort method to sort the array
-		// Arrays.sort(ch);
-		System.out.println("After Sort: "+Arrays.toString(ch));
+		Arrays.sort(arr);
 
-		// sort between range
-		// Arrays.sort(ch, 0, 3);
-		System.out.println("After Sort: "+Arrays.toString(ch));
-
-		// parallel sort method, is better then sort for large set of data
-		Arrays.parallelSort(ch);
-		System.out.println("After Sort: "+Arrays.toString(ch));
-		
+		System.out.printf("After Sort %s ", Arrays.toString(arr));
 		
 	}
 }

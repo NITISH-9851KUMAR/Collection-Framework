@@ -3,24 +3,18 @@ package arrays;
 import java.util.Arrays;
 
 public class BinarySearch{
-	public static void main(String[] args) {
-		
-		int intArr[]= {10, 20, 15, 22, 35};
-		System.out.println("Before Sort: "+Arrays.toString(intArr));
+	public static void main() {
 
-		// sort the array
-		Arrays.sort(intArr);
-		System.out.println("After Sort: "+Arrays.toString(intArr));
-    
-    	// Binary Search
-    	int intKey= 22;
-    	int idx1= Arrays.binarySearch(intArr, intKey);
-    	System.out.println(intKey+" found at index : "+idx1);
+		int[] arr = {10, 90, 15, 14, 35, 76, 4, 26}; // An input array
 
-    	// find element within the range 
-    	int idx2= Arrays.binarySearch(intArr, 1, 3,intKey);
-    	if(idx2<0) System.out.println("Not Found within in Range");
-    	else System.out.println(intKey+" found at index : "+idx2);
+		// Binary Search is only apply on sorted array
+		Arrays.sort(arr);
+
+		// It returns the index of key value
+		int val= Arrays.binarySearch(arr, 30);
+		System.out.println("Found At: "+val);
+		val= Arrays.binarySearch(arr, 35);
+		System.out.println("Found At: "+ val);
 
 	}
 }
