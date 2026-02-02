@@ -2,7 +2,7 @@
  * Multiply odd indexed elements by 2 and add 10 to even indexed elements
  */
 
-package array;
+package array.array1D;
 
 public class Question1 {
     public static void main() {

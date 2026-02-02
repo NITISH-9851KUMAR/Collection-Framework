@@ -1,4 +1,4 @@
-package array;
+package array.array1D;
 
 public class VariableSizeArray{
 	public static void main(String[] args) {

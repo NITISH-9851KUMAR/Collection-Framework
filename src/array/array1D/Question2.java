@@ -2,7 +2,7 @@
  * Search in Array
  */
 
-package array;
+package array.array1D;
 
 public class Question2 {
     public static void main() {

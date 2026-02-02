@@ -1,4 +1,4 @@
-package array;
+package array.array1D;
 
 public class SumOfElements {
     public static void main() {
