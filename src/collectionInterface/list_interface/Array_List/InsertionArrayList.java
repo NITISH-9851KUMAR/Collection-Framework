@@ -20,7 +20,7 @@ public class InsertionArrayList{
 		// print the number list
 		System.out.print(number+"\n");
 
-		// create a even type of list
+		// create even type of list
 		List<Integer> even1= new ArrayList<>();
 		even1.add(2);
 		even1.add(4);

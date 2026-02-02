@@ -1,6 +1,7 @@
 package collectionInterface.list_interface.Array_List;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ReverseArrayList {
     public static void main(String[] args) {
@@ -15,6 +16,8 @@ public class ReverseArrayList {
         arrayList.add(90);
 
         System.out.println(arrayList);
+        // This method also reverse the arrayList
+//        Collections.reverse(arrayList);
 
         // Reverse of arrayList
         int fIdx= 0;
@@ -23,7 +26,7 @@ public class ReverseArrayList {
         // 0 10 3 5 22 10
         // 0  1   2  3  4    5
 
-        int temp= 0;
+        int temp;
 
         while(fIdx<=lIdx){
             temp= arrayList.get(fIdx);

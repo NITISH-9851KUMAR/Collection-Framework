@@ -14,7 +14,8 @@ public class CopyOfArrays{
 		System.out.println(Arrays.toString(copyArr));
 
 		// Copy element between range
-		int[] copyArr2= Arrays.copyOfRange(intArr, 1, 4);
+		int[] copyArr2= new int[10];
+		copyArr2= Arrays.copyOfRange(intArr, 1, 4);
 		System.out.println(Arrays.toString(copyArr2));
 
 	}
