@@ -1,10 +1,9 @@
 package collectionInterface.list_interface.Array_List;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class ReverseArrayList {
-    public static void main(String[] args) {
+    public static void main() {
 
         ArrayList<Integer> arrayList= new ArrayList<>();
         arrayList.add(0);
