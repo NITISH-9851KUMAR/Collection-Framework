@@ -1,4 +1,4 @@
-package collectionInterface.list_interface.Array_List;
+package Array_List;
 
 public class Person{
 	private String name;
