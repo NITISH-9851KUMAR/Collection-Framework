@@ -1,46 +1,23 @@
 package Linked_List;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-
 public class UserDefineLL {
-
-    public static class Student{
-        String name;
-        double marks;
-
-        public Student(String name, double marks) {
-            this.name = name;
-            this.marks = marks;
-        }
-
-        public String toString(){
-            return "Name: %s Marks: %f\n".formatted(name, marks);
-        }
-    }
-
     public static void main() {
-
-        Student[] sArray= new Student[5]; // To store 5 Objects
-        sArray[0] = new Student("Ram", 79.6);
-        sArray[1] = new Student("Rahim", 85.5);
-        sArray[2] = new Student("John", 90.1);
-        sArray[3] = new Student("Lisa", 69.4);
-        sArray[4] = new Student("Ana", 59.8);
-
-        LinkedList<Student> ll= new LinkedList<>(Arrays.asList(sArray));
-
-        // simple printing but it is not good idea
-        System.out.println(ll);
-
-//        Print using iterator, using iterator is good idea to print list
-        Iterator<Student> itr= ll.iterator();
-        Student temp;
-        while(itr.hasNext()){
-            temp= itr.next();
-            System.out.println(temp.toString());
-        }
+        LinkeddList<Integer> ll = new LinkeddList<>();
+        ll.addLastNode(10);
+        ll.addLastNode(20);
+        ll.addLastNode(30);
+        ll.addFirstNode(5);
+        ll.addFirstNode(1);
+        ll.addLastNode(40);
+        ll.addAt(2, 8);
+        ll.addAt(1, 3);
+        ll.addAt(5, 16);
+        ll.addAt(9, 50);
+        ll.addAt(11, 80);
+        ll.display();
+        ll.displayReverse();
+        System.out.println();
+        ll.displayAt(4);
     }
 
 }
