@@ -1,10 +1,9 @@
 package array.array1D;
 
-
 public class SortArray {
     public static void main(){
-
         int[] arr= {1, 5, 9, 4, -2, 8, 3};
+        System.out.print("Before Sort Array:    ");
         PrintArray.printArray(arr);
 
         for(int i= 0; i<arr.length; i++){
@@ -16,9 +15,8 @@ public class SortArray {
                 }
             }
         }
-        System.out.println("After Sorting Array");
+        System.out.print("After Sorting Array: ");
         PrintArray.printArray(arr);
-
     }
 
 }
