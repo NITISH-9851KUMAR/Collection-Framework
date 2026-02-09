@@ -1,6 +1,6 @@
 package array.array1D;
 
-public class GreatestElement {
+public class GrtstElement {
     public static void main() {
 
         int[] arr = {-6, 8, 14, 23, 47, -10, 3, 10};

@@ -1,6 +1,6 @@
 package array.array1D;
 
-public class PassingArrayToMethods {
+public class PaasArrMethod {
     public static void main() {
         int[] arr= {10, 3, 29, 38};
         System.out.println(arr[2]);

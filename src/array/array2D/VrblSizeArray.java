@@ -1,6 +1,6 @@
-package array.array1D;
+package array.array2D;
 
-public class VariableSizeArray{
+public class VrblSizeArray {
 	public static void main(String[] args) {
 		
 		// Now declares only row with 3 size

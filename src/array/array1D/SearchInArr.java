@@ -4,7 +4,7 @@
 
 package array.array1D;
 
-public class Question2 {
+public class SearchInArr {
     public static void main() {
         int[] arr = {10, 20, 30, 40, 50, 60};
         int value= 40;
