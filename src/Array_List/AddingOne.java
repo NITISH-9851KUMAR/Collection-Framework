@@ -9,8 +9,8 @@ public class AddingOne {
 //        Input: arr[] = [5, 6, 7, 8]
 //        Output: [5, 6, 7, 9]
 //        Explanation: 5678 + 1 = 5679
-        int[] arr = {5, 6, 7, 8};
-//        int[] arr = {9,9,9};
+//        int[] arr = {5, 6, 7, 8};
+        int[] arr = {9,9,9};
         Vector<Integer> list= new Vector<>();
         int n= arr.length;
         int carry= 1;
