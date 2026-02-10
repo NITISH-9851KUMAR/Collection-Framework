@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Basics {
-    public static void main(String[] args) {
-
+    public static void main() {
           // Create the list of animals
         List<String> animals= new ArrayList<>();
 
@@ -16,6 +15,5 @@ public class Basics {
         animals.add("Dog");
 
         System.out.print(animals);
-
     }
 }
