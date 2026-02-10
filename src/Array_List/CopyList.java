@@ -3,7 +3,7 @@
  import java.util.ArrayList;
  import java.util.List;
 
- public class CreateArrayListFromCollection{
+ public class CopyList {
 
  	public static void main(String[] args) {
  	

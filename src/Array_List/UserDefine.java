@@ -2,7 +2,7 @@ package Array_List;
 
 import java.util.ArrayList;
 
-public class ArrayListUserDefineObject{
+public class UserDefine {
 	public static void main(String[] args) {
 		// Declaring pList as a collection of type Person of capacity 5
 		ArrayList<Person> pList= new ArrayList<>(5);
